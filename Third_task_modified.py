@@ -6,4 +6,5 @@
 
 list1 = [1.1, 1.2, 3.1, 10.01]
 
-print(max(list(map(lambda x: x-x//1, list1)))-min(list(map(lambda x: x-x//1, list1))))
+print(list1)
+print(f'Разница между максимальным и минимальным значением дробной части равна: {max(list(map(lambda x: x-x//1, list1)))-min(list(map(lambda x: x-x//1, list1)))}')
